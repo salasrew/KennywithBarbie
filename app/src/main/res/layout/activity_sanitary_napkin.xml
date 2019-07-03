@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0BBFF"
+    tools:context=".sanitary_napkin">
+
+    <TextView
+        android:id="@+id/text_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="衛生棉種類"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_standard"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="48dp"
+        android:text="基本型"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_night"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="264dp"
+        android:text="夜用型"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_wing" />
+
+    <TextView
+        android:id="@+id/text_wing"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="168dp"
+        android:text="側翼型"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_long"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="140dp"
+        android:text="加長型"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_wing" />
+
+    <TextView
+        android:id="@+id/text_wing2"
+        android:layout_width="381dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="220dp"
+        android:text="側翼的主要目的是吸收因月經流量大或因活動而引起月經側漏而設"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_long2"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="356dp"
+        android:text="相較於一般型,更長更包覆"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_night2"
+        android:layout_width="390dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="484dp"
+        android:text="先聲明此種類不會發光，尾端較寬，怎麼動,都不漏"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_standard2"
+        android:layout_width="404dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="84dp"
+        android:text="平常看到沒有翅膀的那種"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

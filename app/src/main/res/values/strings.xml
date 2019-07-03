@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KennywithBarbie</string>
+    <string name="login_title">守護戀情你我他</string>
+    <string name="login_login">登入</string>
+    <string name="login_try">試用</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_enroll">EnrollActivity</string>
+
+</resources>
